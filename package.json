@@ -1,0 +1,33 @@
+{
+  "name": "openlandmarks",
+  "version": "1.0.0",
+  "description": "A landmark is a recognizable natural or artificial feature used for navigation and orientation. This repository collects [Wikidata](https://www.wikidata.org/wiki/Q2319498) entities that are landmarks for cartographic use.",
+  "main": "index.js",
+  "bin": {
+    "openlandmarks": "openlandmarks-query-wikidata.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openlandmarks/openlandmarks.git"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/openlandmarks/openlandmarks/issues"
+  },
+  "homepage": "https://github.com/openlandmarks/openlandmarks#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "csv": "^3.0.2",
+    "ldjson-stream": "^1.2.1",
+    "request": "^2.85.0",
+    "through2": "^2.0.3",
+    "wikidata-sdk": "^5.9.0"
+  }
+}
