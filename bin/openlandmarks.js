@@ -19,8 +19,11 @@ program
 
 program
   .command('to-geojson')
-  .action(function () {
-		commands.toGeoJSON(process.stdin, process.stdout);
+  .option('--include-labels <s>', 'Comma separated list of languages to keep')
+  .action(function (cmd) {
+		commands.toGeoJSON(process.stdin, process.stdout, {
+      includeLabels: cmd.includeLabels ? cmd.includeLabels.split(',') : []
+    });
   });
 
 program

@@ -16,3 +16,14 @@ Q54109	United States Capitol
 
 Before you reference a Wikidata entity ensure:
 - It has a [`P625` coordinate location statement](https://www.wikidata.org/wiki/Property:P625)
+
+## Create GeoJSON from source data
+
+Create a GeoJSON feature collection.
+
+```
+cat sources/**/*.csv \
+    | node bin/openlandmarks.js to-wikidata \
+    | node bin/openlandmarks.js to-geojson \
+    | node bin/openlandmarks.js to-collection > openlandmarks.geojson
+```
