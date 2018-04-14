@@ -5,6 +5,13 @@ const commands = require('../lib/commands');
 
 program
   .description('')
+  .command('add-label')
+  .action(function () {
+		commands.addLabel(process.stdin, process.stdout);
+  });
+
+program
+  .description('')
   .command('to-wikidata')
   .action(function () {
 		commands.toWikidata(process.stdin, process.stdout);
