@@ -1,0 +1,39 @@
+body {
+  font-family: "OpenSans", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #606c71;
+}
+
+a {
+  color: #46779c;
+}
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  width: 70%;
+  z-index: 1;
+  right: 0;
+}
+#info {
+  position:absolute;
+  top:0;
+  left: 0;
+  bottom:0;
+  width: 30%;
+  z-index: 2;
+  background-color: #fff;
+  padding: 10px;
+}
+
+@media (min-width: 1500px) {
+  #map {
+    width: 80%;
+  }
+  #info {
+    width: 20%;
+  }
+}

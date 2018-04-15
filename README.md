@@ -4,6 +4,8 @@ A landmark is a recognizable natural or artificial feature used for navigation a
 This repository collects [Wikidata](https://www.wikidata.org/wiki/Q2319498) entities that
 are landmarks for cartographic use.
 
+![](https://user-images.githubusercontent.com/1288339/38777173-4849b1d0-40c1-11e8-8f4a-632b659870c3.png)
+
 ## How to contribute
 
 In `sources` create a new TSV file with the first column being the QID of the entity in Wikidata and an optional second column to make it easier to work with the data.
