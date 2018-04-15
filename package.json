@@ -25,6 +25,7 @@
   "dependencies": {
     "commander": "^2.15.1",
     "csv": "^3.0.2",
+    "js-yaml": "^3.11.0",
     "ldjson-stream": "^1.2.1",
     "request": "^2.85.0",
     "through2": "^2.0.3",

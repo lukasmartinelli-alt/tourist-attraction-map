@@ -1,7 +1,19 @@
 #!/usr/bin/env node
 'use strict';
 const program = require('commander');
+const path = require('path');
 const commands = require('../lib/commands');
+
+program
+  .description('')
+  .command('city-collection <source-dir>')
+  .action(function (sourceDir) {
+    const attractionsPath = path.join(sourceDir, 'attractions.csv');
+    const cityPath = path.join(sourceDir, 'city.yml');
+		commands.cityCollection(cityPath, attractionsPath, function(collection) {
+      console.log(JSON.stringify(collection));
+    });
+  });
 
 program
   .description('')

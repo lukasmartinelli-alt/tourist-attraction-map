@@ -1,11 +1,24 @@
-Q216344,Arlington National Cemetery
-Q54109,United States Capitol
-Q668710,Washington National Cathedral
-Q3570,Union Station
-Q35525,White House
-Q6970416,National Archives Building
-Q178114,Washington Monument
-Q1419538,Watergate complex
-Q1631981,John F. Kennedy Center for the Performing Arts
-Q11201,Supreme Court of the United States
-Q3073495,National Museum of African American History and Culture
+Q216344,Arlington National Cemetery,landmark,2
+Q54109,United States Capitol,landmark,5
+Q668710,Washington National Cathedral,landmark,4
+Q3570,Union Station,landmark,3
+Q35525,White House,landmark,5
+Q6970416,National Archives Building,landmark,2
+Q178114,Washington Monument,landmark,3
+Q1419538,Watergate complex,landmark,2
+Q1631981,John F. Kennedy Center for the Performing Arts,landmark,2
+Q11201,Supreme Court of the United States,landmark,3
+Q3073495,National Museum of African American History and Culture,museum,4
+Q213559,Lincoln Memorial,landmark,2
+Q708847,Korean War Veterans Memorial,landmark,2
+Q713628,Vietnam Veterans Memorial,landmark,2
+Q517545,Nationals Park,arena,3
+Q1416812,Fords Theatre,landmark,3
+Q326183,Jefferson MEmorial,landmark,4
+Q223240,Capital One Arena,arena,3
+Q131454,Library of Congress,museum,4
+Q82387,Basilica of the National Shrine of the Immaculate Conception,landmark,3
+Q1438734,Fort Stevens,landmark,3
+Q1420909,President Lincoln's Cottage,landmark,3
+Q1068752,Howard University,university,4
+Q333886,Georgetown University,university,3

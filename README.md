@@ -27,3 +27,8 @@ cat sources/**/*.csv \
     | node bin/openlandmarks.js to-geojson \
     | node bin/openlandmarks.js to-collection > openlandmarks.geojson
 ```
+
+
+```
+node bin/openlandmarks.js city-collection sources/washington_dc > outputs/washington_dc.geojson
+```
